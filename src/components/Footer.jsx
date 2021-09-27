@@ -1,7 +1,13 @@
 import React from "react";
+import "./styles/Footer.css";
 
-const PieDePagina = () => {
-  return <footer>pie de pagina</footer>;
+const Footer = () => {
+  return <footer>
+    <h1 className="FuenteTexto">
+    Todos los derechos reservados 2003-2021. República Argentina. INCAA <br />
+    Lima 319; Código Postal: C1073AAG, CABA; República Argentina
+    </h1>
+  </footer>;
 };
 
-export default PieDePagina;
+export default Footer;
